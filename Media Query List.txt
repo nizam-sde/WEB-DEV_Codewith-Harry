@@ -1,0 +1,17 @@
+
+For Responsive layout this is a exhaustive list of Media Query
+
+
+For Mobile screen upto - 500px
+@media all (max-width: 577px){
+}
+
+
+For tablet screen ranging between -  500 px to 1200 px
+@media all (min-width: 500px) and (max-width: 1200px) {
+}
+
+
+For Laptop screens ranging between -  1200 px to 1400px
+@media all (min-width: 1200px) and (max-width: 1400px) {
+}
