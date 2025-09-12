@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 4 | Harry Bhaiya is awesome</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            background-color: rgba(216, 126, 126, 0.351);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .box {
+            background-color: white;
+            position: relative;
+            padding: 4px;
+            border: 2px solid grey;
+            border-radius: 7px;
+            height: 550px;
+            width: 260px;
+            /* overflow:auto ; */
+            text-align: center;
+        }
+
+        img {
+            border-radius: 20px;
+            padding: 5px;
+            height: 250px;
+            width: 250px;
+            display: block;
+            margin: 4px auto;
+        }
+
+        .button {
+            border-radius: 15px;
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: larger;
+            padding: 3px 20px;
+            margin-inline: 8px;
+        }
+
+        .button:hover {
+            font-weight: 400;
+            cursor: pointer;
+            color: red;
+        }
+
+
+        h1 {
+            font-size: 25px;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 20px;
+            text-align: left;
+        }
+
+        .Book {
+            border-radius: 22px;
+            background-color: lightblue;
+            color: blue;
+            padding: 8px;
+            font-family: Montserrat;
+            font-weight: 800;
+            padding: 13px;
+            margin-top: 4px;
+            cursor: pointer;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <div>
+                <img src="https://cdn.pixabay.com/photo/2019/08/12/10/03/backpacking-4400872_1280.jpg"
+                    alt="a boy is walking in a village road">
+
+                <span>
+                    <input type="button" value="Hotel" class="button">
+                    <input type="button" value="Train" class="button">
+                </span>
+                <h1>Travelling India | Manali Package</h1>
+                <h2>Thank You for choosing our manali package, we offer best hotel stays at your budget with the itinary
+                    plan of travel</h2>
+                <input type="button" value="Book Now" class="Book">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+<!-- sir isme issue ye hai ki picture jo hai wo center pr nhi ho rha aur pura card ko bhi align center me karna hai, responsiveness abhi sikhaya nhi gya hai but code se kuch kr skte hai to aap dekkh lijiyega -->
+
+<!-- button hover bhi nhi kar rha hai hotel & train wala ye bhi issue hai  -->
+
+<!-- ek issue ye hai ki jaise he text aur add kar rahe hai ye box se overflow kr ja rha hai pr humein aisa banana hai jisse ye overflow na ho bulki size automatic box ka he badh jaye agar text badhe to -->
+
+<!-- code me koi galti ya suggesion dena chahe to aap de skte hai, it will be really appreciated -->
